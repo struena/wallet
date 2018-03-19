@@ -29,7 +29,7 @@
                             "url": "https://struena.org/release/1-0-1/struena-linux-386.tar.gz",
                             "type": "tar",
                             "md5": "942b8996972a472d2c2284663bc74195",
-                            "bin": "geth-linux-386-1.8.2-b8b9f7f4/geth"
+                            "bin": "struena-linux-386/struena"
                         },
                         "bin": "struena",
                         "commands": {
