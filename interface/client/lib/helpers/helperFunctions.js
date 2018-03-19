@@ -219,7 +219,7 @@ Helpers.detectNetwork = function (hash) {
     var network = {};
 
     switch (hash) {
-    case '0xd4e56740f876aef8c010b86a40d5f56745a118d0906a34e69aec8c0db1cb8fa3':
+    case '0x37781d08f531c662829cbf5c8bfaf8f1b475d9c1fd0cc1004a256e6b49c72276':
         console.log('Network is mainnet');
         network.type = 'mainnet';
         network.name = 'Main';

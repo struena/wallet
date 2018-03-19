@@ -27,7 +27,7 @@
                     </div>
                     <div class="connection">
                         <div class="amount">
-                            {{{totalAmount}}} <span class="unit">ETHER</span>
+                            {{{totalAmount}}} <span class="unit">STR</span>
                         </div>
                         {{#if TemplateVar.get "executionFunction" }}
                             <div class='function-signature {{#if TemplateVar.get "hasSignature"}} has-signature {{/if}} '>
@@ -45,7 +45,7 @@
                             {{/if}}
                             {{> dapp_identicon identity=to class="dapp-large"}}
                             <br>
-                            <a href="http://etherscan.io/address/{{to}}#code" class="simptip-position-bottom simptip-movable" data-tooltip="{{to}}" target="_blank">{{shortenAddress to}}</a>
+                            <a href="http://explorer.struena.org/#/address/{{to}}#code" class="simptip-position-bottom simptip-movable" data-tooltip="{{to}}" target="_blank">{{shortenAddress to}}</a>
                         {{else}}
                             <i class="circle-icon icon-doc"></i>
                             <br>
@@ -100,7 +100,7 @@
                                     {{#if $eq (dapp_formatNumber (TemplateVar.get "estimatedGas") "0") "0"}}
                                         <span class="red"><i class="icon-shield"></i> {{i18n "mist.popupWindows.sendTransactionConfirmation.noEstimate"}}</span>
                                     {{else}}
-                                        {{estimatedFee}} ({{dapp_formatNumber (TemplateVar.get "estimatedGas") "0,0"}} gas)
+                                        {{estimatedFee}} STR ({{dapp_formatNumber (TemplateVar.get "estimatedGas") "0,0"}} gas)
                                     {{/if}}
 
 
