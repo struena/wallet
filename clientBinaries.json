@@ -6,7 +6,7 @@
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://struena.org/1-0-1/release/struena-linux-amd64.tar.gz",
+                            "url": "http://struena.blob.core.windows.net/1-0-1/struena-linux-amd64.tar.gz",
                             "type": "tar",
                             "md5": "8e48ba6a72eab6203c30668975316e31",
                             "bin": "struena-linux-amd64/struena"
@@ -26,7 +26,7 @@
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://struena.org/release/1-0-1/struena-linux-386.tar.gz",
+                            "url": "http://struena.blob.core.windows.net/1-0-1/struena-linux-386.tar.gz",
                             "type": "tar",
                             "md5": "942b8996972a472d2c2284663bc74195",
                             "bin": "struena-linux-386/struena"
@@ -48,7 +48,7 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://struena.org/release/1-0-1/struena-darwin-10.6-amd64.tar.gz",
+                            "url": "http://struena.blob.core.windows.net/1-0-1/struena-darwin-10.6-amd64.tar.gz",
                             "type": "tar",
                             "md5": "292db4d43542fd2a9290c72f92d55644",
                             "bin": "struena-darwin-10.6-amd64/struena"
@@ -70,7 +70,7 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://struena.org/release/1-0-1/struena-windows-amd64.zip",
+                            "url": "http://struena.blob.core.windows.net/1-0-1/struena-windows-amd64.zip",
                             "type": "zip",
                             "md5": "36e89b5380f635720e28c75e0ede61eb",
                             "bin": "struena-windows-amd64\\struena.exe"
@@ -90,7 +90,7 @@
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://struena.org/release/1-0-1/struena-windows-386.zip",
+                            "url": "http://struena.blob.core.windows.net/1-0-1/struena-windows-386.zip",
                             "type": "zip",
                             "md5": "0355d151b068348e873c0d1d39b778e1",
                             "bin": "struena-windows-386\\struena.exe"
