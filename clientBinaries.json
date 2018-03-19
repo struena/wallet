@@ -1,6 +1,6 @@
 {
     "clients": {
-        "Struena": {
+        "struena": {
             "version": "1.0.1",
             "platforms": {
                 "linux": {
