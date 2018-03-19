@@ -1,45 +1,45 @@
 {
     "clients": {
-        "Geth": {
-            "version": "1.7.2",
+        "Struena": {
+            "version": "1.0.1",
             "platforms": {
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-linux-amd64-1.7.2-1db4ecdc.tar.gz",
+                            "url": "https://struena.org/1-0-1/release/struena-linux-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "cc4a666fd21ae3627ee8ae974650b2f7",
-                            "bin": "geth-linux-amd64-1.7.2-1db4ecdc/geth"
+                            "md5": "f2d6f22f6395920a489076942c392d22",
+                            "bin": "struena-linux-amd64/struena"
                         },
-                        "bin": "geth",
+                        "bin": "struena",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output": [
-                                    "Geth",
-                                    "1.7.2"
+                                    "Struena",
+                                    "1.0.1"
                                 ]
                             }
                         }
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-linux-386-1.7.2-1db4ecdc.tar.gz",
+                            "url": "https://struena.org/release/1-0-1/struena-linux-386.tar.gz",
                             "type": "tar",
-                            "md5": "84b3a2d491db6f79fd84daa242da9ec6",
-                            "bin": "geth-linux-386-1.7.2-1db4ecdc/geth"
+                            "md5": "af78d9429522b65dd4d43c9a4f1efb9a ",
+                            "bin": "geth-linux-386-1.8.2-b8b9f7f4/geth"
                         },
-                        "bin": "geth",
+                        "bin": "struena",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output": [
-                                    "Geth",
-                                    "1.7.2"
+                                    "Struena",
+                                    "1.0.1"
                                 ]
                             }
                         }
@@ -48,20 +48,20 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-darwin-amd64-1.7.2-1db4ecdc.tar.gz",
+                            "url": "https://struena.org/release/1-0-1/struena-darwin-10.6-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "1220015825ee8772aada37353aa3f7ef",
-                            "bin": "geth-darwin-amd64-1.7.2-1db4ecdc/geth"
+                            "md5": "329b093c6ef05c9b41520212c4ed6d62",
+                            "bin": "struena-darwin-10.6-amd64/struena"
                         },
-                        "bin": "geth",
+                        "bin": "struena",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output": [
-                                    "Geth",
-                                    "1.7.2"
+                                    "Struena",
+                                    "1.0.1"
                                 ]
                             }
                         }
@@ -70,40 +70,40 @@
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-windows-amd64-1.7.2-1db4ecdc.zip",
+                            "url": "https://struena.org/release/1-0-1/struena-windows-amd64.zip",
                             "type": "zip",
-                            "md5": "b34d22226c2d8c6729b4c01a2f25f818",
-                            "bin": "geth-windows-amd64-1.7.2-1db4ecdc\\geth.exe"
+                            "md5": "36e89b5380f635720e28c75e0ede61eb",
+                            "bin": "struena-windows-amd64\\struena.exe"
                         },
-                        "bin": "geth.exe",
+                        "bin": "struena.exe",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output": [
-                                    "Geth",
-                                    "1.7.2"
+                                    "Struena",
+                                    "1.0.1"
                                 ]
                             }
                         }
                     },
                     "ia32": {
                         "download": {
-                            "url": "https://gethstore.blob.core.windows.net/builds/geth-windows-386-1.7.2-1db4ecdc.zip",
+                            "url": "https://struena.org/release/1-0-1/struena-windows-386.zip",
                             "type": "zip",
-                            "md5": "50b353bf3639a502b06e0098c751df67",
-                            "bin": "geth-windows-386-1.7.2-1db4ecdc\\geth.exe"
+                            "md5": "bcc0db53eb01b3ab3e45bc3e81aa657e",
+                            "bin": "struena-windows-386\\struena.exe"
                         },
-                        "bin": "geth.exe",
+                        "bin": "struena.exe",
                         "commands": {
                             "sanity": {
                                 "args": [
                                     "version"
                                 ],
                                 "output": [
-                                    "Geth",
-                                    "1.7.2"
+                                    "Struena",
+                                    "1.0.1"
                                 ]
                             }
                         }
