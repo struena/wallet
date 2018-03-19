@@ -8,7 +8,7 @@
                         "download": {
                             "url": "https://struena.org/1-0-1/release/struena-linux-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "f2d6f22f6395920a489076942c392d22",
+                            "md5": "8e48ba6a72eab6203c30668975316e31",
                             "bin": "struena-linux-amd64/struena"
                         },
                         "bin": "struena",
@@ -28,7 +28,7 @@
                         "download": {
                             "url": "https://struena.org/release/1-0-1/struena-linux-386.tar.gz",
                             "type": "tar",
-                            "md5": "af78d9429522b65dd4d43c9a4f1efb9a ",
+                            "md5": "942b8996972a472d2c2284663bc74195",
                             "bin": "geth-linux-386-1.8.2-b8b9f7f4/geth"
                         },
                         "bin": "struena",
@@ -50,7 +50,7 @@
                         "download": {
                             "url": "https://struena.org/release/1-0-1/struena-darwin-10.6-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "329b093c6ef05c9b41520212c4ed6d62",
+                            "md5": "292db4d43542fd2a9290c72f92d55644",
                             "bin": "struena-darwin-10.6-amd64/struena"
                         },
                         "bin": "struena",
@@ -92,7 +92,7 @@
                         "download": {
                             "url": "https://struena.org/release/1-0-1/struena-windows-386.zip",
                             "type": "zip",
-                            "md5": "bcc0db53eb01b3ab3e45bc3e81aa657e",
+                            "md5": "0355d151b068348e873c0d1d39b778e1",
                             "bin": "struena-windows-386\\struena.exe"
                         },
                         "bin": "struena.exe",
