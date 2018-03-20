@@ -178,7 +178,7 @@
                 "estimatedFee": "Stima consumo (commissione)",
                 "estimatedGasError": "Dati non eseguibili, quindi verra' utilizzato tutto il gas fornito.",
                 "gasPrice": "Prezzo carburante (Gas)",
-                "perMillionGas": "ether per millioni di gas",
+                "perMillionGas": "STR per millioni di gas",
                 "gasLimit": "Imposta commissione massima",
                 "data": "Dati",
                 "buttons": {

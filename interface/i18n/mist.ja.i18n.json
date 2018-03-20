@@ -178,7 +178,7 @@
                 "estimatedFee": "推定されるトランザクションフィーの消費",
                 "estimatedGasError": "データが実行できませんでした、そのため全てのgas が消費されます。",
                 "gasPrice": "ガスプライス",
-                "perMillionGas": "百万gas ごとのEther",
+                "perMillionGas": "百万gas ごとのSTR",
                 "gasLimit": "最大のフィーを提供",
                 "data": "データ",
                 "buttons": {

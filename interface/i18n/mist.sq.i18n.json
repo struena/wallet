@@ -202,7 +202,7 @@
                 "notEnoughGas": "Mund të mos ketë mjaftueshëm karburant për të përfunduar këtë transaksion me sukses.<br>Klikoni këtu për të rritur sasinë e karburantit.",
                 "noEstimate": "Nuk mund të hamendësonim sasinë e nevojshme të karburantit.",
                 "gasPrice": "Çmimi i karburantit",
-                "perMillionGas": "ether për milion karburant",
+                "perMillionGas": "STR për milion karburant",
                 "gasLimit": "Vendos tarifë maksimale",
                 "data": "Të dhëna të paformatuara",
                 "parameters": "Parametra",

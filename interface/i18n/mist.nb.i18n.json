@@ -178,7 +178,7 @@
                 "estimatedFee": "Beregnet avgiftsforbruk",
                 "estimatedGasError": "Data kan ikke utføres, så den kommer til å bruke all gass.",
                 "gasPrice": "Gass pris",
-                "perMillionGas": "ether per million gass",
+                "perMillionGas": "STR per million gass",
                 "gasLimit": "Gi maksimal avgift",
                 "data": "Data",
                 "buttons": {

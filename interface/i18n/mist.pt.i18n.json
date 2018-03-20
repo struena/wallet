@@ -179,7 +179,7 @@
                 "estimatedFee": "Taxa estimada",
                 "estimatedGasError": "Transação inválida, se executada irá gastar todo o combustível dado.",
                 "gasPrice": "Preço do combustível",
-                "perMillionGas": "ether por milhão de combustível",
+                "perMillionGas": "STR por milhão de combustível",
                 "gasLimit": "Providenciar taxa máxima",
                 "data": "Dados",
                 "buttons": {

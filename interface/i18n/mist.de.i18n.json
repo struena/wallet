@@ -178,7 +178,7 @@
                 "estimatedFee": "Geschätzter Gebührenbetrag",
                 "estimatedGasError": "Der Auftrag kann nicht ausgeführt werden, da er das gesamte vorgegebene Gas verbrauchen würde.",
                 "gasPrice": "Gaspreis",
-                "perMillionGas": "Ether pro Millionen Gas",
+                "perMillionGas": "STR pro Millionen Gas",
                 "data": "Daten",
                 "buttons": {
                     "sendTransaction": "Transaktion absenden"
@@ -204,7 +204,7 @@
                 "goToTestnet": "Verwende das Testnetz (Rinkeby)",
                 "goToTestnetDescription": "Teste die Technologie frei in der Testnetz-Sandbox, ",
                 "gotoMainnet": "Verwende das Hauptnetz",
-                "gotoMainnetDescription": " Du wirst etwas Ether benötigen, um Verträge anzulegen und auszuführen. Wir werden dir helfen, etwas zu bekommen ...",
+                "gotoMainnetDescription": " Du wirst etwas STR benötigen, um Verträge anzulegen und auszuführen. Wir werden dir helfen, etwas zu bekommen ...",
                 "doYouHaveAWalletFile": "Hast du eine Wallet-Datei?",
                 "walletFileDescription": "<p>Wallet-Datei zum importieren in dieses Fenster ziehen.<br>Wenn du 2014 am Struena-Pre-sale teilgenommen hast, solltest du über eine Datei mit dem Dateinamen <code>struena_wallet_backup.json</code> verfügen. Sie wurde nach dem Kauf heruntergeladen und dir auch per E-Mail geschickt.</p>",
                 "dropFilesHere": "Pre-sale Datei laden",

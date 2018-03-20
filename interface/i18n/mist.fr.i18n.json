@@ -178,7 +178,7 @@
                 "estimatedFee": "Taxe de consommation estimée",
                 "estimatedGasError": "Les données n'ont pas pu être executées et vont donc utiliser tout le gaz fourni.",
                 "gasPrice": "Prix du gaz",
-                "perMillionGas": "ether par million de gaz",
+                "perMillionGas": "STR par million de gaz",
                 "gasLimit": "Fournir la taxe maximum",
                 "data": "Données",
                 "buttons": {
