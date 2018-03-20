@@ -654,12 +654,7 @@ let menuTempl = function (webviews) {
         click() {
             shell.openExternal('https://github.com/struena/wallet/wiki');
         },
-    }, {
-        label: i18n.t('mist.applicationMenu.help.gitter'),
-        click() {
-            shell.openExternal('https://gitter.im/struena/wallet');
-        },
-    }, {
+    },  {
         label: i18n.t('mist.applicationMenu.help.reportBug'),
         click() {
             shell.openExternal('https://github.com/struena/wallet/issues');

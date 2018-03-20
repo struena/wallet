@@ -1,14 +1,14 @@
 {
     "clients": {
         "struena": {
-            "version": "1.0.1",
+            "version": "1.0.2",
             "platforms": {
                 "linux": {
                     "x64": {
                         "download": {
-                            "url": "http://struena.blob.core.windows.net/1-0-1/struena-linux-amd64.tar.gz",
+                            "url": "https://struena.blob.core.windows.net/1-0-2/struena-linux-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "8e48ba6a72eab6203c30668975316e31",
+                            "md5": "820380f4a1fc71379bc244b762853ecc",
                             "bin": "struena-linux-amd64/struena"
                         },
                         "bin": "struena",
@@ -17,29 +17,9 @@
                                 "args": [
                                     "version"
                                 ],
-                                "output": [
+                                "output":[
                                     "Struena",
-                                    "1.0.1"
-                                ]
-                            }
-                        }
-                    },
-                    "ia32": {
-                        "download": {
-                            "url": "http://struena.blob.core.windows.net/1-0-1/struena-linux-386.tar.gz",
-                            "type": "tar",
-                            "md5": "942b8996972a472d2c2284663bc74195",
-                            "bin": "struena-linux-386/struena"
-                        },
-                        "bin": "struena",
-                        "commands": {
-                            "sanity": {
-                                "args": [
-                                    "version"
-                                ],
-                                "output": [
-                                    "Struena",
-                                    "1.0.1"
+                                    "1.0.2"
                                 ]
                             }
                         }
@@ -48,10 +28,10 @@
                 "mac": {
                     "x64": {
                         "download": {
-                            "url": "http://struena.blob.core.windows.net/1-0-1/struena-darwin-10.6-amd64.tar.gz",
+                            "url": "https://struena.blob.core.windows.net/1-0-2/struena-darwin-10-6-amd64.tar.gz",
                             "type": "tar",
-                            "md5": "292db4d43542fd2a9290c72f92d55644",
-                            "bin": "struena-darwin-10.6-amd64/struena"
+                            "md5": "dba61462707b26c8c099cb58621f341c",
+                            "bin": "struena-darwin-10-6-amd64/struena"
                         },
                         "bin": "struena",
                         "commands": {
@@ -61,18 +41,18 @@
                                 ],
                                 "output": [
                                     "Struena",
-                                    "1.0.1"
+                                    "1.0.2"
                                 ]
                             }
                         }
                     }
-                },
+                },				
                 "win": {
                     "x64": {
                         "download": {
-                            "url": "http://struena.blob.core.windows.net/1-0-1/struena-windows-amd64.zip",
+                            "url": "https://struena.blob.core.windows.net/1-0-2/struena-windows-amd64.zip",
                             "type": "zip",
-                            "md5": "36e89b5380f635720e28c75e0ede61eb",
+                            "md5": "696dbacba18eb60f3ec5241965fa5b0b",
                             "bin": "struena-windows-amd64\\struena.exe"
                         },
                         "bin": "struena.exe",
@@ -81,29 +61,9 @@
                                 "args": [
                                     "version"
                                 ],
-                                "output": [
+                                "output":[
                                     "Struena",
-                                    "1.0.1"
-                                ]
-                            }
-                        }
-                    },
-                    "ia32": {
-                        "download": {
-                            "url": "http://struena.blob.core.windows.net/1-0-1/struena-windows-386.zip",
-                            "type": "zip",
-                            "md5": "0355d151b068348e873c0d1d39b778e1",
-                            "bin": "struena-windows-386\\struena.exe"
-                        },
-                        "bin": "struena.exe",
-                        "commands": {
-                            "sanity": {
-                                "args": [
-                                    "version"
-                                ],
-                                "output": [
-                                    "Struena",
-                                    "1.0.1"
+                                    "1.0.2"
                                 ]
                             }
                         }
