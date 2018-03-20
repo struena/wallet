@@ -310,7 +310,7 @@ let menuTempl = function (webviews) {
     });
 
     // LANGUAGE (VIEW)
-    const switchLang = langCode => function (menuItem, browserWindow) {
+ /*   const switchLang = langCode => function (menuItem, browserWindow) {
         try {
             // update i18next instance in browserWindow (Mist meteor interface)
             browserWindow.webContents.executeJavaScript(
@@ -357,7 +357,7 @@ let menuTempl = function (webviews) {
     }, {
         type: 'separator',
     });
-
+*/
     // VIEW
     menu.push({
         label: i18n.t('mist.applicationMenu.view.label'),
