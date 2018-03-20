@@ -73,22 +73,13 @@ script:
   - if [[ $TRAVIS_BRANCH != "master" ]]; then unset CSC_LINK CSC_KEY_PASSWORD; fi
   # windows code-signing on master branch
   - if [[ $GULP_PLATFORM == "win" && $TRAVIS_BRANCH == "master" ]]; then export CSC_LINK=$CSC_WIN_LINK && CSC_KEY_PASSWORD=$CSC_WIN_KEY_PASSWORD; fi
-  # build mist
-  - if [[ $GULP_PLATFORM == "mac" ]]; then travis_wait 60 gulp --$GULP_PLATFORM; fi  # increase timeout for slower mac builds
-  - if [[ $GULP_PLATFORM != "mac" ]]; then gulp --$GULP_PLATFORM; fi
   # build wallet if on master branch
   - if [[ $TRAVIS_BRANCH == "master" ]]; then travis_wait 60 gulp --wallet --$GULP_PLATFORM; fi
-  # prepare and run integration tests
-  - if [[ $TRAVIS_OS_NAME == "linux" ]]; then export DISPLAY=:99.0; sh -e /etc/init.d/xvfb start; sleep 3; fi
-  - if [[ $GULP_PLATFORM != "win" ]]; then gulp test; fi
-
-after_success:
-  - if [[ $TRAVIS_BRANCH == "master" ]]; then gulp uploadQueue --$GULP_PLATFORM && gulp uploadQueue --wallet --$GULP_PLATFORM; fi
-
-notifications:
-  webhooks:
-    urls:
-      - https://webhooks.gitter.im/e/33972d9e627a142c57a6
-    on_success: change
-    on_failure: always
-    on_start: never
+  deploy:
+  provider: s3
+  access_key_id: "AKIAINJKOAMQXWWB7YRQ"
+  secret_access_key: "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"
+  bucket: "S3 Bucket"
+  skip_cleanup: true
+  local_dir: release
+  region: us-east-2
